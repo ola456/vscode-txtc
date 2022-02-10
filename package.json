@@ -1,0 +1,45 @@
+{
+    "name": "vscode-txtc",
+    "displayName": "vscode-txtc",
+    "description": "text with comments",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Other"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ola456/vscode-txtc"
+    },
+    "keywords": [
+        "txt",
+        "txtc",
+        "text",
+        "textc",
+        "syntax",
+        "highlight",
+        "comments",
+        "notes"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "txtc",
+            "aliases": [
+                "txtc",
+                "TXTC"
+            ],
+            "extensions": [
+                ".txtc",
+                ".textc"
+            ]
+        }],
+        "grammars": [{
+            "language": "txtc",
+            "scopeName": "source.txtc",
+            "path": "./syntaxes/txtc.tmLanguage"
+        }]
+    }
+}
