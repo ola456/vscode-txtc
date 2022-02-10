@@ -10,6 +10,7 @@
         "Programming Languages",
         "Other"
     ],
+    "publisher": "ola456",
     "repository": {
         "type": "git",
         "url": "https://github.com/ola456/vscode-txtc"
