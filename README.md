@@ -8,4 +8,4 @@ Text files with comments. See the screenshot below for a quick example where it 
 
 ---
 
-`(^|\s)[#]+\s` comment 123
+`(^|\s)#\s` comment 123
