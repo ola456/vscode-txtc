@@ -2,7 +2,7 @@
     "name": "vscode-txtc",
     "displayName": "vscode-txtc",
     "description": "text with comments",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.64.0"
     },
@@ -26,21 +26,25 @@
         "notes"
     ],
     "contributes": {
-        "languages": [{
-            "id": "txtc",
-            "aliases": [
-                "txtc",
-                "TXTC"
-            ],
-            "extensions": [
-                ".txtc",
-                ".textc"
-            ]
-        }],
-        "grammars": [{
-            "language": "txtc",
-            "scopeName": "source.txtc",
-            "path": "./syntaxes/txtc.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "txtc",
+                "aliases": [
+                    "txtc",
+                    "TXTC"
+                ],
+                "extensions": [
+                    ".txtc",
+                    ".textc"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "txtc",
+                "scopeName": "source.txtc",
+                "path": "./syntaxes/txtc.tmLanguage"
+            }
+        ]
     }
 }
