@@ -1,6 +1,6 @@
 # vscode-txtc
 
-Text files with comments.
+Text files with comments. See the screenshot below for a quick example where it can be helpful.
 
 ---
 
@@ -8,4 +8,4 @@ Text files with comments.
 
 ---
 
-`(^|\s)#\s` comment 123
+`(^|\s)[#]+\s` comment 123
